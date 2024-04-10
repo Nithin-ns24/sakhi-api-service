@@ -15,7 +15,7 @@ def get_child_urls(url):
     # iteration_count = 0  # Initialize a counter
 
     for link in soup.find_all('a'):
-        url_href = link.get('href')
+        url_href = 'link.get('href')'
         if url_href and url_href.startswith("/") and url_href != "/":
             links_list.append(url_href)
 
