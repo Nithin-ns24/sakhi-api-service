@@ -26,4 +26,4 @@ jobs:
         run: pip install semgrep
 
       - name: Run Semgrep with autofix
-        run: semgrep --config .semgrep/print-to-logger.yml --autofix
+        run: semgrep --config .semgrep/autofix.yml --autofix
