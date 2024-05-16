@@ -1,0 +1,8 @@
+rules:
+  - id: no-print-statements
+    patterns:
+      - pattern: print($X)
+    message: "Avoid using print statements; use logging instead."
+    severity: WARNING
+    fix: |
+      logger.info($X)
