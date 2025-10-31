@@ -1,5 +1,5 @@
 transformers==4.36.0
-starlette==0.27.0
+starlette==0.49.1
 setuptools==65.5.1
 numpy==1.22.2
 urllib3==1.26.18
@@ -22,3 +22,4 @@ pytz==2022.7.1
 ffmpeg
 scikit-learn==1.2.1
 marqo==2.1.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
